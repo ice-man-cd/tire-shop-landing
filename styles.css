@@ -1,7 +1,9 @@
 /* CSS Variables */
 :root {
-    --primary-color: #0056b3; /* Trustworthy Blue */
-    --secondary-color: #f39c12; /* Attention Orange */
+    --primary-color: #ff0808;
+    /* Trustworthy Blue */
+    --secondary-color: #25f312;
+    /* Attention Orange */
     --text-color: #333333;
     --text-light: #666666;
     --bg-color: #f4f7f6;
@@ -107,7 +109,7 @@ section {
 /* Header & Nav */
 .header {
     background-color: var(--white);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -187,9 +189,10 @@ section {
 
 /* Hero Section */
 .hero {
-    background-color: #e9ecef; /* Fallback */
+    background-color: #000000;
+    /* Fallback */
     /* Add a background image here if available: url('path/to/image.jpg') */
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1578844251758-2f71da645217?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://www.vipauto.com/wp-content/uploads/2024/08/What-are-UPH-Tires.jpg');
     background-size: cover;
     background-position: center;
     color: var(--white);
@@ -233,7 +236,7 @@ section {
     border-radius: 8px;
     text-align: center;
     transition: transform var(--transition-speed);
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 .service-card:hover {
@@ -277,7 +280,7 @@ section {
     background-color: var(--white);
     padding: var(--spacing-lg);
     border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
 .form-group {
